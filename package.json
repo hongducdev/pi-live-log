@@ -1,0 +1,17 @@
+{
+  "name": "pi-live-log",
+  "version": "0.1.0",
+  "description": "Pi extension: live log tail inside running shell tool rows, plus a stall/max-runtime watchdog that stops hung builds and summarizes why.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Nguyễn Hồng Đức (https://github.com/hongducdev)",
+  "repository": { "type": "git", "url": "git+https://github.com/hongducdev/pi-live-log.git" },
+  "homepage": "https://github.com/hongducdev/pi-live-log#readme",
+  "bugs": { "url": "https://github.com/hongducdev/pi-live-log/issues" },
+  "keywords": ["pi-package", "pi-extension", "pi", "pi-coding-agent", "live-log", "watchdog", "build", "wsl"],
+  "pi": { "extensions": ["./src/index.ts"] },
+  "files": ["src/", "README.md", "CHANGELOG.md", "LICENSE"],
+  "scripts": { "test": "node --experimental-strip-types --no-warnings --test \"test/*.test.ts\"" },
+  "peerDependencies": { "@earendil-works/pi-coding-agent": "*" },
+  "engines": { "node": ">=22.19" }
+}
