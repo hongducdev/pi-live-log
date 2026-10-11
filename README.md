@@ -22,7 +22,9 @@ After a stop, the finished row ends with a verdict such as:
  ✗ Stopped after 10m 0s: error — src/net.cpp:12:5: error: 'bar' was not declared in this scope
 ```
 
-> Screenshot / GIF: _placeholder — to be added._
+![Running build: live log tail, watchdog line and stall warning](https://raw.githubusercontent.com/hongducdev/pi-live-log/main/docs/running.png)
+
+![Stopped build with error verdict](https://raw.githubusercontent.com/hongducdev/pi-live-log/main/docs/stopped.png)
 
 ## Install
 

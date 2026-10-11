@@ -1,6 +1,6 @@
 {
   "name": "pi-live-log",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pi extension: live log tail inside running shell tool rows, plus a stall/max-runtime watchdog that stops hung builds and summarizes why.",
   "type": "module",
   "license": "MIT",

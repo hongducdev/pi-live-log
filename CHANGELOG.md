@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 — 2026-10-11
+
+- README: add screenshots of a running row (live log + watchdog) and a stopped row with its verdict (images hosted in `docs/`, not shipped in the package).
+
 ## 0.1.0 — 2026-10-11
 
 First standalone release, extracted from a personal Pi setup.
